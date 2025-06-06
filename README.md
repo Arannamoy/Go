@@ -17,6 +17,7 @@
 - [Break and continue statement](#break-and-continue-statement)
 - [Structure](#structure)
 - [Array](#array)
+- [Dynamic-array | slice](#dynamic-array--slice)
 ## Init mod file:
 
 ```
