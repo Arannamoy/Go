@@ -1,14 +1,20 @@
 package main
 
-import "fmt"
+import ("fmt")
 
 func main() {
-	var type1 string = "Hello world"
-	const type2 int = 32
-	var type3 bool = true
-	var type4, type5, type6 string
-	type4 = " "
-	type5 = " "
-	type6 = " "
-	fmt.Println("Output: ", type1, type2, type3, type4, type5, type6)
+	var num1 int
+	fmt.Print("Enter a number:")
+	fmt.Scan(&num1)
+
+	switch num1{
+	case 1:fmt.Println("Sunday")
+	case 2:fmt.Println("Monday")
+	case 3:fmt.Println("Tuesday")
+	case 4:fmt.Println("Wednesday")
+	case 5:fmt.Println("Thursday")
+	case 6:fmt.Println("Friday")
+	case 7:fmt.Println("Saturday")
+	default:fmt.Println("Invalid input")
+	}
 }
