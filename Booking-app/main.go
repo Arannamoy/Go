@@ -1,5 +1,9 @@
-package main;
+package main
+
 import "fmt"
-func main()  {
+
+func main() {
+	fmt.Print("Hello\n")
+	fmt.Print(("Hello"))
 	fmt.Print("Hello")
 }
